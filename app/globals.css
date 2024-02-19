@@ -1,88 +1,87 @@
-/* Solarized Color Theme */
-:root {
---base03: #002b36;
---base02: #073642;
---base01: #586e75;
---base00: #657b83;
---base0: #839496;
---base1:#93a1a1;
---base2:#eee8d5;
---base3: #fdf6e3;
---yellow: #b58900;
---orange: #cb4b16;
---red: #dc322f;
---magenta: #d33682;
---violet: #6c71c4;
---blue: #268bd2;
---cyan: #2aa198;
---green: #859900;
-}
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
- 
+
+:root {
+    --base03: 193 100% 21%;
+    --base02: 192  90%  26%;
+    --base01: 194  25%  46%; 
+    --base00: 195  23%  51%;
+    --base0: 186  13%  59%;
+    --base1: 180   9%  63%
+    --base2: 44  11%  93%;
+    --base3: 44  10%  99%;
+    --yellow: 45 100%  71%;
+    --orange: 18  89%  80%;
+    --red: 1  79%  86%;
+    --magenta: 331  74%  83%;
+    --violet: 237  45%  77%;
+    --blue: 205  82%  82%;
+    --cyan: 175  74%  63%;
+    --green: 68 100  60;
+}
+
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 20 14.3% 4.1%;
+    --background: var(--base3)/*0 0% 100%;*/;
+    --foreground: var(--base00) /* 240 10% 3.9%*/;
 
-    --card: 0 0% 100%;
-    --card-foreground: 20 14.3% 4.1%;
+    --card: var(--base3)/*0 0% 100%*/;
+    --card-foreground: var(--base00)/*240 10% 3.9%*/;
  
-    --popover: 0 0% 100%;
-    --popover-foreground: 20 14.3% 4.1%;
+    --popover: var(--base3)/*0 0% 100%*/;
+    --popover-foreground: var(--base00)/*240 10% 3.9%*/;
  
-    --primary: 24 9.8% 10%;
-    --primary-foreground: 60 9.1% 97.8%;
+    --primary: var(--green)/*240 5.9% 10%*/;
+    --primary-foreground: var(--base00)/*0 0% 98%*/;
  
-    --secondary: 60 4.8% 95.9%;
-    --secondary-foreground: 24 9.8% 10%;
+    --secondary: var(--yellow)/*240 4.8% 95.9%*/;
+    --secondary-foreground: var(--base00)/*240 5.9% 10%*/;
  
-    --muted: 60 4.8% 95.9%;
-    --muted-foreground: 25 5.3% 44.7%;
+    --muted: var(--base2)/*240 4.8% 95.9%*/;
+    --muted-foreground: var(--base01)/*240 3.8% 46.1%*/;
  
-    --accent: 60 4.8% 95.9%;
-    --accent-foreground: 24 9.8% 10%;
+    --accent: var(--base1)/*240 4.8% 95.9%*/;
+    --accent-foreground: var(--base02)/*240 5.9% 10%*/;
  
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 60 9.1% 97.8%;
+    --destructive: var(--red)/*0 84.2% 60.2%*/;
+    --destructive-foreground: var(--base03)/*0 0% 98%*/;
 
-    --border: 20 5.9% 90%;
-    --input: 20 5.9% 90%;
-    --ring: 20 14.3% 4.1%;
+    --border: var(--base02)/*240 5.9% 90%*/;
+    --input: var(--base02)/*240 5.9% 90%*/;
+    --ring: var(--base02)/*240 10% 3.9%*/;
  
     --radius: 0.5rem;
   }
  
   .dark {
-    --background: 20 14.3% 4.1%;
-    --foreground: 60 9.1% 97.8%;
+    --background: var(--base03)/*240 10% 3.9%*/;
+    --foreground: var(--base0) /*0 0% 98%*/;
  
-    --card: 20 14.3% 4.1%;
-    --card-foreground: 60 9.1% 97.8%;
+    --card: var(--base03) /*240 10% 3.9%*/;
+    --card-foreground: var(--base0) /*0 0% 98%*/;
  
-    --popover: 20 14.3% 4.1%;
-    --popover-foreground: 60 9.1% 97.8%;
+    --popover: var(--base03) /*240 10% 3.9%*/;
+    --popover-foreground: var(--base0) /*0 0% 98%*/;
  
-    --primary: 60 9.1% 97.8%;
-    --primary-foreground: 24 9.8% 10%;
+    --primary: var(--green) /*0 0% 98%*/;
+    --primary-foreground: var(--base0) /*240 5.9% 10%*/;
  
-    --secondary: 12 6.5% 15.1%;
-    --secondary-foreground: 60 9.1% 97.8%;
+    --secondary: var(--yellow)/*240 3.7% 15.9%*/;
+    --secondary-foreground: var(--base0) /*0 0% 98%*/;
  
-    --muted: 12 6.5% 15.1%;
-    --muted-foreground: 24 5.4% 63.9%;
+    --muted: var(--base02) /*240 3.7% 15.9%*/;
+    --muted-foreground: var(--base1) /*240 5% 64.9%*/;
  
-    --accent: 12 6.5% 15.1%;
-    --accent-foreground: 60 9.1% 97.8%;
+    --accent: var(--base01) /*240 3.7% 15.9%*/;
+    --accent-foreground: var(--base2) /*0 0% 98%*/;
  
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 60 9.1% 97.8%;
+    --destructive: var(--red) /*0 62.8% 30.6%*/;
+    --destructive-foreground: var(--base3) /*0 0% 98%*/;
  
-    --border: 12 6.5% 15.1%;
-    --input: 12 6.5% 15.1%;
-    --ring: 24 5.7% 82.9%;
+    --border: var(--base2) /*240 3.7% 15.9%*/;
+    --input: var(--base2) /*240 3.7% 15.9%*/;
+    --ring: var(--base2) /*240 4.9% 83.9%*/;
   }
 }
  
