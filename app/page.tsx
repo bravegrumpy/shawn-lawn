@@ -1,3 +1,15 @@
+import { Holtwood_One_SC } from "next/font/google";
+
+const holtwood = Holtwood_One_SC
+
+function Header(){
+    return(
+    <>
+        <h1 className='${holtwood} text-green-50'>ShawnLawn</h1>
+    </>
+    );
+}
+
 export default function Home(){
     return(
         <>
