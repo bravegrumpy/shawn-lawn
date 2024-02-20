@@ -1,11 +1,10 @@
-root:
-  - any-glob-to-any-file: '*'
 AnyChange:
-  - changed-files:
-    - any-glob-to-any-files: '**'
+- changed-files:
+  - any-glob-to-any-file: '**'
 
 feature:
-  - head-branch: ['^feature', 'feature', 'feature-*']
+- head-branch: ['^feature', 'feature', 'feature-*']
 
 release:
-  -base-branch: 'master'
+- base-branch: 'master'
+- head-branch: 'dev'
