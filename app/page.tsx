@@ -1,10 +1,21 @@
-import NavigationMenu from "@/app/nav-menu";
-
+'use client';
 export default function Home(){
     return(
         <>
-            <h1>Home Page</h1>
-            <NavigationMenu />
+            <header>
+                <h1>ShawnLawn</h1>
+                <p>A Charleston landscaping business</p>
+            </header>
+            <style jsx>{`
+                header {
+                    backgound-color: green;
+                }
+                p {
+                    color: blue;
+                    font-family: serif;
+                    backgound-color: pink;
+                }
+                `}</style>
         </>
     );
 }
