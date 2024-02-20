@@ -1,8 +1,6 @@
-root:
-  - any-glob-to-any-file: '*'
 AnyChange:
   - changed-files:
-    - any-glob-to-any-files: '**'
+    - any-glob-to-any-files: '**/*.*'
 
 feature:
   - head-branch: ['^feature', 'feature', 'feature-*']
