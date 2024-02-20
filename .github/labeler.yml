@@ -6,9 +6,11 @@ Documentation:
 - changed-files:
   - any-glob-to-any-file: '**/*.md'
 
-action:
+workflow:
 - changed-files:
   - any-glob-to-any-file: '.github/workflows/**]
+
+action:
 - head-branch: ['^action', 'action', 'action-*']
 
 feature:
