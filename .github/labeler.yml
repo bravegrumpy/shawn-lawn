@@ -1,9 +1,10 @@
 AnyChange:
-  - changed-files:
-    - any-glob-to-any-files: '**/*.*'
+- changed-files:
+  - any-glob-to-any-files: ['**', '!.github/**']
 
 feature:
-  - head-branch: ['^feature', 'feature', 'feature-*']
+- head-branch: ['^feature', 'feature', 'feature-*']
 
 release:
-  -base-branch: 'master'
+- base-branch: 'master'
+- head-branch: 'dev'
