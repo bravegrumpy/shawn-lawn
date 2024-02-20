@@ -1,5 +1,3 @@
-root:
-  - any-glob-to-any-file: '*'
 AnyChange:
   - changed-files:
     - any-glob-to-any-files: '**'
