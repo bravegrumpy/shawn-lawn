@@ -1,12 +1,11 @@
-name: "Pull Request Labeler"
-on:
-- pull_request_target
+root:
+  - any-glob-to-any-file: '*'
+AnyChange:
+  - changed-files:
+    - any-glob-to-any-files: '**'
 
-jobs:
-  labeler:
-    permissions:
-      contents: read
-      pull-requests: write
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/labeler@v5
+feature:
+  - head-branch: ['^feature', 'feature', 'feature-*']
+
+release:
+  -base-branch: 'master'
