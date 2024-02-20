@@ -2,6 +2,18 @@ AnyChange:
 - changed-files:
   - any-glob-to-any-file: '**'
 
+Documentation:
+- changed-files:
+  - any-glob-to-any-file: '**/*.md'
+
+workflow:
+- changed-files:
+  - any-glob-to-any-file: '.github/workflows/**]
+
+
+action:
+- head-branch: ['^action', 'action', 'action-*']
+
 feature:
 - head-branch: ['^feature', 'feature', 'feature-*']
 
