@@ -7,11 +7,11 @@ Documentation:
   - any-glob-to-any-file: '**/*.md'
 
 action:
-- head-branch: ['^action', 'action', 'action-*']
+  - head-branch: ['^action', 'action', 'action-*']
 
 feature:
-- head-branch: ['^feature', 'feature', 'feature-*']
+  - head-branch: ['^feature', 'feature', 'feature-*']
 
 release:
-- base-branch: 'master'
-- head-branch: 'dev'
+  - base-branch: 'master'
+  - head-branch: 'dev'
