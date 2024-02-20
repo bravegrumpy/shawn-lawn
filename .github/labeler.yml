@@ -1,22 +1,18 @@
-AnyChange:
-- changed-files:
-  - any-glob-to-any-file: '**'
-
-Documentation:
+documentation:
 - changed-files:
   - any-glob-to-any-file: '**/*.md'
 
-workflow:
+actions:
 - changed-files:
-  - any-glob-to-any-file: '.github/workflows/**]
+  - any-glob-to-any-file: '.github/**'
 
+bug:
+  - head-branch: ['*-patch-*', '^bug', '^bugfix']
 
-action:
-- head-branch: ['^action', 'action', 'action-*']
-
-feature:
-- head-branch: ['^feature', 'feature', 'feature-*']
+enhancement:
+  - head-branch: ['^feature', 'feature', 'feature-*']
 
 release:
-- base-branch: 'master'
-- head-branch: 'dev'
+  - all:
+    - base-branch: 'master'
+    - head-branch: 'dev'
