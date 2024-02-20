@@ -8,7 +8,7 @@ export default function RootLayout({
 }){
     return(
         <html lang="en-us">
-            <body>
+            <body className="bg-gradient-to-r from-indigo-500 to-pink-500">
                 <StyledJsxRegistry>{children}</StyledJsxRegistry>
             </body>
         </html>

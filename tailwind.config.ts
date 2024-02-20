@@ -9,6 +9,6 @@ const config: Config = {
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: ["styled-jsx/babel" ],
 };
 export default config;
