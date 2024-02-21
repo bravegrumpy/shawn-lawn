@@ -1,10 +1,17 @@
-AnyChange:
+documentation:
 - changed-files:
-  - any-glob-to-any-file: '**'
+  - any-glob-to-any-file: '**/*.md'
 
-feature:
-- head-branch: ['^feature', 'feature', 'feature-*']
+actions:
+- changed-files:
+  - any-glob-to-any-file: '.github/**'
+
+bug:
+  - head-branch: ['patch-*', '^bravegrumpy-patch', '^bug', '^bugfix']
+
+enhancement:
+  - head-branch: ['^feature', 'feature', 'feature-*']
 
 release:
-- base-branch: 'master'
-- head-branch: 'dev'
+  - base-branch: 'master'
+  - head-branch: 'dev'

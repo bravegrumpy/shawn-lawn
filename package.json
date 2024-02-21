@@ -16,6 +16,7 @@
     "react-dom": "^18"
   },
   "devDependencies": {
+
     "@prisma/adapter-pg": "^5.10.1",
     "@types/node": "^20.11.19",
     "@types/react": "^18.2.57",
