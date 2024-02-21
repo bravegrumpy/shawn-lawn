@@ -6,11 +6,13 @@ export default async function GetQuery() {
     const prisma = new PrismaClient()
 
     async function main(){
-        const post = await prisma.post.update({
-            where: { id: 1},
-            data: { published: true },
+        const newUser = await prisma.user.create({
+            data: {
+                email: 'testA@email.com',
+                name: 'TestA'
+            }
         })
-        console.log(post);
+        console.dir(newUser, { depth: null})
     }
 
     main()
