@@ -7,7 +7,7 @@ actions:
   - any-glob-to-any-file: '.github/**'
 
 bug:
-  - head-branch: ['*-patch-*', '^bug', '^bugfix']
+  - head-branch: ['*patch*', '^bug', '^bugfix']
 
 enhancement:
   - head-branch: ['^feature', 'feature', 'feature-*']
