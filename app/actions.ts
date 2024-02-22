@@ -6,13 +6,7 @@ export default async function GetQuery() {
     const prisma = new PrismaClient()
 
     async function main(){
-        const newUser = await prisma.user.create({
-            data: {
-                email: 'testA@email.com',
-                name: 'TestA'
-            }
-        })
-        console.dir(newUser, { depth: null})
+        console.log("Main Function is Executing...")
     }
 
     main()
