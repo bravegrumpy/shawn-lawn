@@ -2,13 +2,15 @@
 
 # IDE specific
 /.vs*
+/.idea
+=======
 
 # dependencies
 /node_modules
 /.pnp
 .pnp.js
 .yarn/install-state.gz
-package-lock.*
+**/package.lock*
 
 # testing
 /coverage
