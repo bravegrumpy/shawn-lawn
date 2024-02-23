@@ -2,11 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-.strokeme {
-    text-shadow:
-        -3px -3px #000,
-        -3px 3px #000,
-        3px -3px #000,
-        3px 3px #000
-    ;
+@layer utilities {
+    .text-outline {
+        text-stroke: 3px solid black
+    }
 }

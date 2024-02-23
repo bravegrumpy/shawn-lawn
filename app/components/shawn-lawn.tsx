@@ -9,10 +9,6 @@ export default function ShawnLawn(){
                 Lawn
             </div>
             </h1>
-
-            <div className="flex flex-row justify-center items-center gap-0 text-center basis-0 uppercase border-solid border-2 border-orange-500 bg-white">
-            <svg viewBox="0 0 200 50" className="font-"><text y='50' className="">Title</text></svg>
-            </div>
         </>
     );
 }
