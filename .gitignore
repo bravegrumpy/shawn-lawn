@@ -10,8 +10,7 @@
 /.pnp
 .pnp.js
 .yarn/install-state.gz
-**/package.lock*
-package-*
+
 
 # testing
 /coverage
