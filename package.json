@@ -3,7 +3,7 @@
     "version": "0.1.0",
     "private": true,
     "scripts": {
-        "dev": "next dev",
+        "dev": "next dev --turbo",
         "build": "next build",
         "start": "next start",
         "lint": "next lint"
@@ -31,7 +31,8 @@
         "prisma": "^5.10.1",
         "tailwindcss": "^3.4.1",
         "ts-node": "^10.9.2",
-        "typescript": "^5.3.3"
+        "typescript": "^5.3.3",
+        "webkit": "^0.0.0"
     },
     "description": "This is a website I am making for the local landscaping business, www.shawnlawn.com",
     "bugs": {
