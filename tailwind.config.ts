@@ -10,7 +10,8 @@ const config: Config = {
     extend: {},
   },
   plugins: [
-    require('@tailwindcss/typography')
+    require('tailwindcss'),
+    require('autoprefixer')
   ],
 };
 export default config;

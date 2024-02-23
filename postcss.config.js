@@ -1,8 +1,7 @@
-import WebKitCSSMatrix from 'webkit';
 module.exports = {
 	plugins: {
+        'postcss-import': {},
 		tailwindcss: {},
 		autoprefixer: {},
-        WebKitCSSMatrix: {},
 	},
 };
