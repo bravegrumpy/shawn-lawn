@@ -14,10 +14,10 @@ export default function Home(){
                 </div>
                 <div className="container flex flex-col justify-start items-center dark:text-limeade-100 py-2 border-0 border-b-2 border-neutral-500 m-auto bg-emerald-50 dark:bg-emerald-950">
                     <div>
-                        <p className="p-2 bg-limeade-600 hover:bg-limeade-500 rounded-full self-center text-center text-brown-derby-950 font-black"><a href="mailto:shawn@shawnlawn.com">Schedule a FREE consultation</a></p>
+                    <a href="mailto:shawn@shawnlawn.com"><button className="p-2 bg-limeade-200 dark:bglimeade-600 hover:bg-limeade-300 focus:bg-limeade-300 rounded-full self-center text-center text-brown-derby-950 font-black hover:ring-rose-500 hover:ring-4">Schedule a FREE consultation</button></a>
                     </div>
                 </div>
-                <div className="h-[1000px]"></div>
+                <div className="h-[700px]"></div>
             </main>
         </>
     );
