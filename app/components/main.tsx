@@ -1,6 +1,8 @@
 import MainFlexContainer from "@/app/components/main-flex-container";
 import Header from '@/app/components/header';
+import Button from '@/app/components/button';
 import ImageLeftTextRight from '@/app/components/layouts/rows/image-left-text-right';
+
 export default function Main(){
     return (
         <>
@@ -17,7 +19,10 @@ export default function Main(){
                                 Welcome to the new <a href="https://shawnlawn.com" className="underline font-semibold">shawnlawn.com</a>. Please be patient while this page is under construction.
                             </ImageLeftTextRight>
                         <div className="flex self-center pb-[25px] pt-[-75px]">
-                            <a href="mailto:shawn@shawnlawn.com"><button className="p-2 bg-limeade-400 dark:bg-limeade-600 hover:bg-limeade-200 focus:bg-limeade-200 dark:hover:bg-limeade-300 dark:focus:bg-limeade-300 rounded-full self-center text-center text-brown-derby-700 dark:text-brown-derby-300 font-black hover:ring-rose-500 focus:ring-rose-500 hover:ring-4 focus:ring-4">Schedule a FREE consultation</button></a>
+                            <Button
+                                text= "Schedule a FREE consultation"
+                                href="mailto:shawn@shawnlawn.com"
+                            />
                         </div>
                     </div>
                     <div className="container flex flex-col justify-start items-center dark:text-limeade-100 py-2 m-auto bg-emerald-50 dark:bg-emerald-950 gap-4">
@@ -25,10 +30,10 @@ export default function Main(){
                             TODO: #37 Extract this into a form
                             TODO: #36 Make form-subit button save info to cache, then has a popup with a sign-up form. Once signup is complete, message is sent, and confirmation is sent to user. 
                         */}
-                            <a href="mailto:code@bravegrumpy.com" className="font-semibold">  code@bravegrumpy.com</a>
+                            <a href="https://shawnlawn.com" target="_" className="font-semibold">  code@bravegrumpy.com</a>
                         </p>
                         <div className="flex self-center">
-                            <ol className='list-image-[url(../components/icons/envelope-open.png)]'>
+                            <ol className='list-image-[url(../components/images/icons/envelope-open.png)] dark:list-image-[url(../components/images/icons/dark-envelope-open.png)]'>
                                 <li>to provoide content</li>
                                 <li>to request a change</li>
                                 <li>or to suggest a feature</li>
