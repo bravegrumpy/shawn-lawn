@@ -1,5 +1,5 @@
 'use client';
-export default function Button ({
+export default function ButtonLink ({
     text,
     href,
     target,
