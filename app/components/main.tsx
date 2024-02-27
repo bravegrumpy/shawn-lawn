@@ -1,7 +1,8 @@
 import MainFlexContainer from "@/app/components/main-flex-container";
 import Header from '@/app/components/header';
-import Button from '@/app/components/button';
+import ButtonLink from '@/app/components/button';
 import ImageLeftTextRight from '@/app/components/layouts/rows/image-left-text-right';
+import { linkHandler } from "@/app/utils/button-behaivors";
 
 export default function Main(){
     return (
@@ -19,9 +20,10 @@ export default function Main(){
                                 Welcome to the new <a href="https://shawnlawn.com" className="underline font-semibold">shawnlawn.com</a>. Please be patient while this page is under construction.
                             </ImageLeftTextRight>
                         <div className="flex self-center pb-[25px] pt-[-75px]">
-                            <Button
+                            <ButtonLink
                                 text= "Schedule a FREE consultation"
                                 href="mailto:shawn@shawnlawn.com"
+
                             />
                         </div>
                     </div>
@@ -30,7 +32,7 @@ export default function Main(){
                             TODO: #37 Extract this into a form
                             TODO: #36 Make form-subit button save info to cache, then has a popup with a sign-up form. Once signup is complete, message is sent, and confirmation is sent to user. 
                         */}
-                            <a href="https://shawnlawn.com" target="_" className="font-semibold">  code@bravegrumpy.com</a>
+                            <a href="https://shawnlawn.com" target="_blank" className="font-semibold">  code@bravegrumpy.com</a>
                         </p>
                         <div className="flex self-center">
                             <ol className='list-image-[url(../components/images/icons/envelope-open.png)] dark:list-image-[url(../components/images/icons/dark-envelope-open.png)]'>
