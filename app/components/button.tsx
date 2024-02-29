@@ -1,6 +1,6 @@
 'use client';
 import React from 'react';
-import GetQuery from "@/app/utils/actions";
+import GetQuery from "@/app/lib/actions";
 
 export default function Button () {
 

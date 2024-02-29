@@ -1,4 +1,4 @@
-import GetQuery from "@/app/utils/actions";
+import GetQuery from "@/app/lib/actions";
 
 export default async function Form(){    
     return(

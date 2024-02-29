@@ -68,3 +68,5 @@ export default async function GetQuery() {
     
     console.log("prisma function finished")
 }
+
+//export function authenticate(){}
