@@ -1,0 +1,35 @@
+'use client';
+
+import { useEffect } from 'react';
+import Header from '@/app/components/header';
+import MainFlexContainer from '@/app/components/main-flex-container';
+
+export default function Error({
+    error,
+    reset,
+}:{
+    error: Error & { digest?: string}
+    reset: () => void
+}) {
+    useEffect(() => {
+        console.error(error);
+    }, [error])
+
+    return(
+        <>
+            <MainFlexContainer>
+                <Header />
+                <div>
+                    <h2> Something went wrong </h2>
+                        <button
+                            onClick={
+                                () => reset()
+                            }
+                        >
+                            Something went wrong. Try again later.
+                        </button>
+                </div>
+            </MainFlexContainer>
+        </>
+    );
+}
