@@ -19,7 +19,7 @@ export default function Main() {
             />
                 <div className="container self-center flex flex-col justify-start items-start gap-[50px] pt-[25px] m-auto bg-limeade-50 dark:bg-limeade-950 rounded rounded-lg border-2 border-solid border-neutral-500">
                     <ImageLeftTextRight
-                        src='https://img1.wsimg.com/isteam/ip/369b5ff8-e315-4151-9d33-e4bd5646e324/Screenshot_20220625-164121_Chrome~2.jpg/:/rs=w:800,h:800'
+                        src='url(./images/business-card.png)'
                         href="https://shawnlawn.com"
                         alt="business card for Shawn Lawn"
                     >
