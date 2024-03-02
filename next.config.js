@@ -4,4 +4,7 @@ module.exports = {
     eslint: {
         ignoreDuringBuilds: true,
     },
+    experimental: {
+        ppr: false,
+    },
 }
