@@ -17,11 +17,13 @@ export default function Main() {
             <Header
                 className="-z-5 border-0 border-b-2 border-x-2 border-solid border-neutral-500 rounded-none rounded-b-lg overflow-hidden -mb-1 mt-1" 
             />
-                <div className="container self-center flex flex-col justify-start items-start gap-[50px] pt-[25px] m-auto bg-limeade-50 dark:bg-limeade-950 rounded rounded-lg border-2 border-solid border-neutral-500">
+                <div className="container self-center flex flex-col justify-start items-start gap-[50px] pt-[25px] m-auto bg-limeade-50 dark:bg-limeade-950 rounded-lg border-2 border-solid border-neutral-500">
                     <ImageLeftTextRight
-                        src='url(./images/business-card.png)'
+                        src='url(http://placekitten.com/800/400)'
                         href="https://shawnlawn.com"
                         alt="business card for Shawn Lawn"
+                        width={800}
+                        height={400}
                     >
                         Welcome to the new <a href="https://shawnlawn.com" className="underline font-semibold">shawnlawn.com</a>. Please be patient while this page is under construction.
                     </ImageLeftTextRight>
