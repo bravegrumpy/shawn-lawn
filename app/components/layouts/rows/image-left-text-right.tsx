@@ -1,5 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
+import businessCard from '../../images/business-card.png'
+
 export default function ImageLeftTextRight(
     { 
         src,
@@ -12,7 +14,7 @@ export default function ImageLeftTextRight(
         children,
         textStyle,
     }:{
-        src: string,
+        src?: string,
         alt?: string,
         width?: number,
         height?: number,
@@ -33,7 +35,7 @@ export default function ImageLeftTextRight(
 
                     <Image
                         className={`${imgStyle} hover:ring-rose-500 focus:ring-rose-500 hover:ring-4 focus:ring-4 grow-2 shrink-0 px-10`} 
-                        src={src}
+                        src={businessCard}
                         alt={alt}
                         width={width}
                         height={height}
