@@ -1,4 +1,4 @@
-import "./globals.css";
+import "../globals.css";
 import { ubuntu  } from "@/fonts";
 import React from 'react';
 

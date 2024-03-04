@@ -7,6 +7,8 @@ export default function ImageLeftTextRight(
         src,
         href,
         alt,
+        width,
+        height,
         target,
         imgStyle,
         children,
@@ -14,6 +16,8 @@ export default function ImageLeftTextRight(
     }:{
         src?: string,
         alt?: string,
+        width?: number,
+        height?: number,
         href?:string,
         target?:string,
         imgStyle?:string,
