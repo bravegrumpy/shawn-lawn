@@ -3,6 +3,7 @@ import Header from '@/app/components/header';
 import ButtonLink from '@/app/components/button-link';
 import ImageLeftTextRight from '@/app/components/layouts/rows/image-left-text-right';
 import Button from "@/app/components/button";
+import businessCard from "./images/business-card.webp"
 
 export default function Main() {
     return (
@@ -19,11 +20,9 @@ export default function Main() {
             />
                 <div className="container self-center flex flex-col justify-start items-start gap-[50px] pt-[25px] m-auto bg-limeade-50 dark:bg-limeade-950 rounded-lg border-2 border-solid border-neutral-500">
                     <ImageLeftTextRight
-                        src='url(http://placekitten.com/800/400)'
+                        src = {businessCard}
                         href="https://shawnlawn.com"
                         alt="business card for Shawn Lawn"
-                        width={800}
-                        height={400}
                     >
                         Welcome to the new <a href="https://shawnlawn.com" className="underline font-semibold">shawnlawn.com</a>. Please be patient while this page is under construction.
                     </ImageLeftTextRight>
