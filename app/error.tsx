@@ -1,8 +1,8 @@
 'use client';
 
 import { useEffect } from 'react';
-import Header from '@/app/components/header';
-import MainFlexContainer from '@/app/components/main-flex-container';
+import Header from '@/components/header';
+import MainFlexContainer from '@/components/main-flex-container';
 
 export default function Error({
     error,

@@ -1,10 +1,12 @@
-import MainFlexContainer from "@/app/components/main-flex-container";
-import Header from '@/app/components/header';
-import ButtonLink from '@/app/components/button-link';
-import ImageLeftTextRight from '@/app/components/layouts/rows/image-left-text-right';
-import Button from "@/app/components/button";
-import darkEnvelope from  '@/app/components/images/icons/dark-envelope-open.png'
-import lightEnvelope from '@/app/components/images/icons/envelope-open.png'
+import MainFlexContainer from "@/components/main-flex-container";
+import Header from '@/components/header';
+import ButtonLink from '@/components/button-link';
+import ImageLeftTextRight from '@/components/layouts/rows/image-left-text-right';
+import Button from "@/components/button";
+
+const businessCard = '@/public/images/businessCard/business-card.webp';
+import lightEnvelope from '@/public/icons/envelope-open.png';
+import darkEnvelope from '@/public/icons/dark-envelope-open.png';
 
 export default function Main() {
     return (
@@ -22,6 +24,9 @@ export default function Main() {
                 <div className="container self-center flex flex-col justify-start items-start gap-[50px] pt-[25px] m-auto bg-limeade-50 dark:bg-limeade-950 rounded-lg border-2 border-solid border-neutral-500">
                     <ImageLeftTextRight
                         href="https://shawnlawn.com"
+                        src={businessCard}
+                        width={719}
+                        height={425}
                         alt="business card for Shawn Lawn"
                     >
                         Welcome to the new <a href="https://shawnlawn.com" className="underline font-semibold">shawnlawn.com</a>. Please be patient while this page is under construction.
@@ -42,7 +47,7 @@ export default function Main() {
                         <a href="https://shawnlawn.com" target="_blank" className="font-semibold">  code@bravegrumpy.com</a>
                     </p>
                     <div className="flex self-center">
-                        <ol className='list-image-[url(@/app/components/images/icons/envelope-open.png)] dark:list-image-[url(@/app/components/images/icons/dark-envelope-open.png)]'>
+                        <ol className={'list-image-[lightEnvelope] dark:list-image-[darkEnvelope]'}>
                             <li>to provoide content</li>
                             <li>to request a change</li>
                             <li>or to suggest a feature</li>

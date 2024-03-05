@@ -1,4 +1,4 @@
-import ShawnLawn from "@/app/components/shawn-lawn";
+import ShawnLawn from "@/components/shawn-lawn";
 
 export default function Header({ className }: { className?: string }) {
     return (
