@@ -1,4 +1,4 @@
-import GetQuery from '@/app/actions';
+import GetQuery from '@/app/utils/actions';
 
 export default function Form({ style }) {
     const query = GetQuery;
