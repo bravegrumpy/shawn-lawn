@@ -1,5 +1,4 @@
 'use server';
-
 import { PrismaClient, Prisma } from '@prisma/client';
 
 // Code for getting a secret from AWS
