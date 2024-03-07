@@ -109,8 +109,7 @@ const config: Config = {
     },
     plugins: [
         require('tailwindcss'),
-        require('autoprefixer'),
-        require('postcss'),
+        require('autoprefixer')
     ],
 };
 export default config;
