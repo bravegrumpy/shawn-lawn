@@ -2,7 +2,7 @@ import MainFlexContainer from "@/app/components/main-flex-container";
 import Header from '@/app/components/header';
 import ButtonLink from '@/app/components/button';
 import ImageLeftTextRight from '@/app/components/layouts/rows/image-left-text-right';
-import { linkHandler } from "@/app/utils/button-behaivors";
+import Form from "@/app/components/form-test";
 
 export default function Main(){
     return (
@@ -42,6 +42,9 @@ export default function Main(){
                             </ol>
                         </div>
                     </div>
+                <div>
+                    <Form />
+                </div>
                 <div className="h-[1000px]"></div>
             </MainFlexContainer>
         </>
