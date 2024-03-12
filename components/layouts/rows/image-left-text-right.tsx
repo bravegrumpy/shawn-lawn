@@ -32,14 +32,13 @@ export default function ImageLeftTextRight(
                     target={target}
                 >
 
-                    {/*<Image
+                    {/*<img
                         className={`${imgStyle} hover:ring-rose-500 focus:ring-rose-500 hover:ring-4 focus:ring-4 grow-2 shrink-0 px-10`} 
-                        src='@/public/images/businessCard/business-card.png'
+                        src={src}
                         alt={alt}
-    />*/}
-                Link
+                    />*/}
                 </a>
-                <ul>
+                <ul className='hidden'>
                     Params passed:
                     <li>{href}</li>
                     <li>{target}</li>
