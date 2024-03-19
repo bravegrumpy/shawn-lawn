@@ -49,10 +49,10 @@ export default function Main() {
                         </ol>
                     </div>
                 </div>
-                <div className="container flex flex-col justify-start items-center dark:text-white-1 py-5 m-auto bg-white-1 dark:bg-black-1 gap-4 h-[500px] border-solid border-2 border-neutral-500 rounded-lg">
+                <div className="container flex flex-col justify-start items-center dark:text-white-1 py-5 m-auto bg-white-1 dark:bg-black-1 gap-4 h-[300px] border-solid border-2 border-neutral-500 rounded-lg">
                     <Button />
                 </div>
-                <div className="h-[478px]"></div>
+                <div className="h-[300px]"></div>
             </MainFlexContainer>
         </>
     );
