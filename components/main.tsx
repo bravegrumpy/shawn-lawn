@@ -4,10 +4,6 @@ import ButtonLink from '@/components/button-link';
 import ImageLeftTextRight from '@/components/layouts/rows/image-left-text-right';
 import Button from "@/components/button";
 
-const businessCard = '@/public/images/businessCard/business-card.webp';
-import lightEnvelope from '@/public/icons/envelope-open.png';
-import darkEnvelope from '@/public/icons/dark-envelope-open.png';
-
 export default function Main() {
     return (
         <>
@@ -24,7 +20,6 @@ export default function Main() {
                 <div className="container self-center flex flex-col justify-start items-start gap-[50px] pt-[25px] m-auto bg-limeade-50 dark:bg-limeade-950 rounded-lg border-2 border-solid border-neutral-500">
                     <ImageLeftTextRight
                         href="https://shawnlawn.com"
-                        src={businessCard}
                         width={719}
                         height={425}
                         alt="business card for Shawn Lawn"
@@ -47,7 +42,7 @@ export default function Main() {
                         <a href="https://shawnlawn.com" target="_blank" className="font-semibold">  code@bravegrumpy.com</a>
                     </p>
                     <div className="flex self-center">
-                        <ol className={'list-image-[lightEnvelope] dark:list-image-[darkEnvelope]'}>
+                        <ol className="list-image-[url(@/public/icons/envelope-open.png)] dark:list-image-[url(@/public/icons/dark-envelope-open.png)]">
                             <li>to provoide content</li>
                             <li>to request a change</li>
                             <li>or to suggest a feature</li>
