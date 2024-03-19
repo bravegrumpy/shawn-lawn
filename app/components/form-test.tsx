@@ -1,12 +1,11 @@
-import GetQuery from '@/app/actions';
+import GetQuery from "@/app/utils/actions";
 
-export default function Form({ style }) {
-    const query = GetQuery;
-    return (
+export default async function Form(){    
+    return(
         <>
-            <div className={ style }>
-                <form action={query}>
-                    <button type="submit">Do Function Defined in actions.ts</button>
+            <div>
+                <form action={GetQuery}>
+                    <button type="submit">Click Me!</button>
                 </form>
             </div>
         </>
