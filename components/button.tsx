@@ -1,6 +1,6 @@
 'use client';
 import React from 'react';
-import GetQuery from "@/scripts/actions";
+import doAction from "@/scripts/actions";
 
 export default function Button () {
 
@@ -13,7 +13,7 @@ export default function Button () {
         setClientTriggers(clientTriggers + 1);
         
         console.log("Starting server query...")
-        GetQuery();
+        doAction();
         setServerTriggers(serverTriggers + 1);
         
         console.log("Server query complete.")
