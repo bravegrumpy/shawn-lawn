@@ -1,4 +1,5 @@
 import ShawnLawn from "@/components/shawn-lawn";
+import Link from 'next/link';
 
 export default function Header({ className }: { className?: string }) {
     return (
@@ -9,6 +10,8 @@ export default function Header({ className }: { className?: string }) {
                     TODO: #35 Add nav links
                     TODO: #34 Extract nav-links into separate component 
                  */}
+                 
+                <div><Link href="/api/auth/login"><p>Sign In</p></Link></div>
             </header>
         </>
     );
