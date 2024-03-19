@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
 
 export default function ImageLeftTextRight(
     { 
@@ -33,10 +32,10 @@ export default function ImageLeftTextRight(
                 >
 
                     {/*<img
-                        className={`${imgStyle} hover:ring-rose-500 focus:ring-rose-500 hover:ring-4 focus:ring-4 grow-2 shrink-0 px-10`} 
-                        src={src}
+                        className="hover:ring-rose-500 focus:ring-rose-500 hover:ring-4 focus:ring-4 grow-2 shrink-0 px-10" 
+                        src="@/public/images/businessCard/business-card.webp"
                         alt={alt}
-                    />*/}
+    />*/}
                 </a>
                 <ul className='hidden'>
                     Params passed:
