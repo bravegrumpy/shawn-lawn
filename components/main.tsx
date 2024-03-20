@@ -1,8 +1,8 @@
-import MainFlexContainer from "@/app/components/main-flex-container";
-import Header from '@/app/components/header';
-import ButtonLink from '@/app/components/button';
-import ImageLeftTextRight from '@/app/components/layouts/rows/image-left-text-right';
-import Form from "@/app/components/form-test";
+import MainFlexContainer from "@/components/main-flex-container";
+import Header from '@/components/header';
+import ButtonLink from '@/components/button-link';
+import ImageLeftTextRight from '@/components/rows/image-left-text-right';
+import Form from "@/components/form-test";
 
 export default function Main(){
     return (
@@ -35,7 +35,7 @@ export default function Main(){
                             <a href="https://shawnlawn.com" target="_blank" className="font-semibold">  code@bravegrumpy.com</a>
                         </p>
                         <div className="flex self-center">
-                            <ol className='list-image-[url(../components/images/icons/envelope-open.png)] dark:list-image-[url(../components/images/icons/dark-envelope-open.png)]'>
+                            <ol className='list-image-[url(@/public/icons/envelope-open.png)] dark:list-image-[url(@/public/icons/dark-envelope-open.png)]'>
                                 <li>to provoide content</li>
                                 <li>to request a change</li>
                                 <li>or to suggest a feature</li>
