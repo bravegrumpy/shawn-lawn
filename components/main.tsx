@@ -11,7 +11,9 @@ export default function Main(){
                     TODO: #33 Extract this element into a component.
                 */}
                 <MainFlexContainer>
-                    <Header />
+                    <Header
+                        className="-z-5 border-0 border-b2 border-x-2 border-solid border-neutral-500 rounded-none rounded-b-lg overflow-hidden -mb-1 mt-1" 
+                    />
                     <div className="container self-center flex flex-col justify-start items-start gap-[50px] pt-[25px] m-auto bg-limeade-50 dark:bg-limeade-950">
                         <ImageLeftTextRight
                             src='https://img1.wsimg.com/isteam/ip/369b5ff8-e315-4151-9d33-e4bd5646e324/Screenshot_20220625-164121_Chrome~2.jpg/:/rs=w:800,h:800'
