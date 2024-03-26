@@ -1,5 +1,4 @@
 import ShawnLawn from "@/components/shawn-lawn";
-import { UserButton } from "@clerk/nextjs";
 
 export default function Header({ className }: { className?: string }) {
     return (
