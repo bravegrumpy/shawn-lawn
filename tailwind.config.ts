@@ -34,6 +34,7 @@ const config: Config = {
                 light: '#845b24',
                 dark: '#82ab37',
             },
+            gray: colors.neutral[500],
             contrast: colors.rose[500],
             emerald: colors.emerald,
             lime: colors.lime,
