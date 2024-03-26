@@ -40,7 +40,7 @@ export default function Main() {
                             TODO: #37 Extract this into a form
                             TODO: #36 Make form-subit button save info to cache, then has a popup with a sign-up form. Once signup is complete, message is sent, and confirmation is sent to user. 
                         */}
-                        <a href="https://shawnlawn.com" target="_blank" className="font-semibold">  code@bravegrumpy.com</a>
+                        <a href="https://new.shawnlawn.com" target="_blank" className="font-semibold">  code@bravegrumpy.com</a>
                     </p>
                     <div className="flex self-center">
                         <ol className="list-image-[url(@/public/icons/envelope-open.png)] dark:list-image-[url(@/public/icons/dark-envelope-open.png)]">
