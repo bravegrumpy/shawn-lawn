@@ -3,7 +3,7 @@ import ShawnLawn from "@/components/shawn-lawn";
 export default function Header( { className }: { className?: string} ) {
     return (
         <>
-            <header className={`${className}container w-full md:flex md:flex-row justify-center md:justify-start items-center mx-auto bg-white-3 dark:bg-black-3 dark:text-white-1 sticky top-0`}>
+            <header className={`${className} container w-full md:flex md:flex-row justify-center md:justify-start items-center mx-auto bg-white-3 dark:bg-black-3 dark:text-white-1 sitcky top-0`}>
 
                 <ShawnLawn />
                 {/*
