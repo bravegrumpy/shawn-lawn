@@ -1,6 +1,9 @@
 {
     "name": "shawn-lawn",
     "version": "0.1.0",
+    "prisma": {
+        "seed": "ts-node --compiler-options {\"module\":\"CommonJS\"} prisma/seed.ts"
+    },
     "private": true,
     "scripts": {
         "dev": "next dev --turbo",
@@ -21,8 +24,6 @@
         "@types/react": "^18.2.57",
         "@types/react-dom": "^18.2.19",
         "autoprefixer": "^10.4.17",
-        "aws": "^0.0.3-2",
-        "aws-sdk": "^2.1568.0",
         "eslint": "^8",
         "pg": "^8.11.3",
         "postcss": "^8.4.35",
