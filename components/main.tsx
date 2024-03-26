@@ -15,7 +15,7 @@ export default function Main() {
                 className="gap-2"
             >
             <Header
-                className="-z-5 border-0 border-b-2 border-x-2 border-solid border-neutral-500 rounded-none rounded-b-lg overflow-hidden -mb-1 mt-1" 
+                className="z-5 border-0 border-b-2 border-x-2 border-solid border-neutral-500 rounded-none rounded-b-lg overflow-hidden -mb-1 mt-1" 
             />
                 <div className="container self-center flex flex-col justify-start items-start gap-[50px] pt-[25px] m-auto bg-limeade-50 dark:bg-limeade-950 rounded-lg border-2 border-solid border-neutral-500">
                     <ImageLeftTextRight
