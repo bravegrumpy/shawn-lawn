@@ -1,4 +1,4 @@
-import { ClerkProvider } from '@/clerk/nextjs';
+import { ClerkProvider } from "@clerk/nextjs";
 import "@/app/globals.css";
 import { ubuntu  } from "@/fonts";
 import React from 'react';
