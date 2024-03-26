@@ -1,25 +1,24 @@
 'use server';
-import { PrismaClient, Prisma } from '@prisma/client';
+
 //CRUD Actions
-// TODO: Split this into the 4 CRUD functions
-export default async function GetQuery() {
-    console.log("prisma function started")
-    const prisma = new PrismaClient();
+// TODO: Split this into the 4 CRUD functions #issue55
 
-    // Main function for CRUD actions
-    async function main(){
-        console.log("Main Function is Executing...");
+export async function createRecord() {
+    console.log('Create endpoint not implemented.');
+};
 
-    }
+export async function readRecord(){
+    console.log('Read endpoint not implemented');
+};
 
-    main()
-        .then(async () => {
-            await prisma.$disconnect()
-        })
-        .catch(async (e) => {
-            console.error(e)
-            await prisma.$disconnect()
-            process.exit(1)
-        })
-    console.log("prisma function finished")
+export async function updateRecord(){
+    console.log('Read endpoint not implemented');
+};
+
+export async function deleteRecord(){
+    console.log('Read endpoint not implemented');
+};
+
+export default async function doAction(){
+    console.log("Example Server Action is complete.\n\n Prisma was not used.");
 }
