@@ -23,6 +23,7 @@ export default function Main() {
                         width={719}
                         height={425}
                         alt="business card for Shawn Lawn"
+                        src="https://img1.wsimg.com/isteam/ip/369b5ff8-e315-4151-9d33-e4bd5646e324/Screenshot_20220625-164121_Chrome~2.jpg/:/rs=w:800,h:800"
                     >
                         Welcome to the new <a href="https://shawnlawn.com" className="underline font-semibold">shawnlawn.com</a>. Please be patient while this page is under construction.
                     </ImageLeftTextRight>
