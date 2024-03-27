@@ -40,7 +40,7 @@ export default function Main(){
                             <a href="https://new.shawnlawn.com" target="_blank" className="font-semibold">  code@bravegrumpy.com</a>
                         </p>
                         <div className="flex self-center">
-                            <ol className='list-image-[url(@/public/icons/envelope-open.png)] dark:list-image-[url(@/public/icons/dark-envelope-open.png)]'>
+                            <ol className='list-image-[url(../public/icons/envelope-open.png)] dark:list-image-[url(../public/icons/dark-envelope-open.png)]'>
                                 <li>to provoide content</li>
                                 <li>to request a change</li>
                                 <li>or to suggest a feature</li>

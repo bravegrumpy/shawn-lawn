@@ -1,4 +1,4 @@
-import "@/app/globals.css";
+import "./globals.css";
 import { ubuntu  } from "@/fonts";
 
 export default function RootLayout({
