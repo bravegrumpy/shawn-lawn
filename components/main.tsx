@@ -47,7 +47,7 @@ export default function Main(){
                             </ol>
                         </div>
                     </div>
-                    <div className="container hidden">
+                    <div className="container flex">
                         {/*
                         TODO: #64 Test Prisma functionality but unhiding this div
                         */}
