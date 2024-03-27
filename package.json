@@ -1,6 +1,6 @@
 {
     "name": "shawn-lawn",
-    "version": "0.2.0",
+    "version": "0.1.0",
     "prisma": {
         "seed": "ts-node --compiler-options {\"module\":\"CommonJS\"} prisma/seed.ts"
     },
