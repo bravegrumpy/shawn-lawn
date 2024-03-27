@@ -1,4 +1,4 @@
-//'use server';
+'use server';
 
 //CRUD Actions
 // TODO: Split this into the 4 CRUD functions #issue55

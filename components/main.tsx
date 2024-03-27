@@ -47,7 +47,7 @@ export default function Main(){
                             </ol>
                         </div>
                     </div>
-                    <div className="hidden">
+                    <div className="container hidden">
                         {/*
                         TODO: #64 Test Prisma functionality but unhiding this div
                         */}
@@ -55,7 +55,7 @@ export default function Main(){
                         <Button />
                     </div>
                 </div>
-                <div className="h-[300px]"></div>
+                <div className="h-[1000px]"></div>
             </MainFlexContainer>
         </>
     );
