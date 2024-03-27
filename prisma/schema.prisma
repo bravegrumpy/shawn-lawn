@@ -14,7 +14,18 @@ datasource db {
 }
 
 model user {
-  id      String      @id @default(uuid())
-  email   String   @unique
-  name    String?
+  id       String    @id @default(uuid())
+  email    String    @unique
+  name     String?
+  password String
+  address  address[]
+}
+
+model address {
+  id         String  @id @default(uuid())
+  street     String
+  city       String?
+  zip        String  @db.VarChar(5)
+  customerId String
+  custmer    user    @relation(fields: [customerId], references: [id])
 }
