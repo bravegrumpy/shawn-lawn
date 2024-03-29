@@ -34,12 +34,29 @@ const config: Config = {
                 light: '#845b24',
                 dark: '#82ab37',
             },
+            gray: {
+                DEFAULT: colors.neutral[500],
+                ...colors.neutral,
+            },
             contrast: colors.rose[500],
             emerald: colors.emerald,
             lime: colors.lime,
             green: colors.green,
             neutral: colors.neutral,
             rose: colors.rose,
+
+            gradient:{
+                light: {
+                    1: colors.emerald[200],
+                    2: colors.lime[100],
+                    3: colors.green[100]
+                },
+                dark: {
+                    1: colors.emerald[950],
+                    2: colors.lime[950],
+                    3: colors.green[950],
+                },
+            },
 
             limeade: {
                 50: '#f6faeb',
@@ -75,6 +92,23 @@ const config: Config = {
             sans: ['Ubuntu', 'sans-serif'],
             serif: ['Glegoo', 'Times New Roman', 'serif'],
         },
+
+        aria: {
+            busy: 'busy="true',
+            checked: 'checked="true"',
+            disabled: 'disabled="true"',
+            expanded: 'expanded="true"',
+            hidden: 'hidden="true"',
+            pressed: 'pressed="true"',
+            readonly: 'readonly="true"',
+            required: 'required="true"',
+            selected: 'selected="true"',
+        },
+
+        borderColor: ({ theme }) => ({
+            ...theme('colors'),
+            DEFAULT: theme('gray', 'currentColor'),
+        }),
 
         extend: {
             colors:{
